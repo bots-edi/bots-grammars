@@ -188,8 +188,9 @@ structure = [
             {ID: 'LQ', MIN: 1, MAX: 99999},
         ]},
     ]},
-    {ID: 'CTT', MIN: 1, MAX: 1},
-    {ID: 'AMT', MIN: 0, MAX: 5},
+    {ID: 'CTT', MIN: 1, MAX: 1, LEVEL: [
+        {ID: 'AMT', MIN: 0, MAX: 5},
+    ]},
     {ID: 'SE', MIN: 1, MAX: 1},
 ]}
 ]
